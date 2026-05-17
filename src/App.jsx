@@ -11,12 +11,12 @@ function App() {
     <div style={pageStyle}>
       {/* HEADER */}
       <header style={headerStyle}>
-        <h1 style={nameStyle}>Fetratullah Hazratrasuli</h1>
+        <h1 style={nameStyle}>Fetratullah Rasuly</h1>
 
         <div style={tagStyle}>
           <span>Informatik-Student</span>
-          <span>Web Developer</span>
-          <span>Creator</span>
+          <span>KI-Webentwickler</span>
+          <span>Check-in-Agent</span>
         </div>
       </header>
 
@@ -38,8 +38,7 @@ function App() {
         >
           <p>
             Hallo! Ich bin Fetratullah und studiere Informationstechnologie.
-            Ich interessiere mich für Webentwicklung, digitale Projekte,
-            Social Media und moderne Technologien.
+            Ich interessiere mich für Webentwicklung durch KI, IT-Support und moderne Technologien.
           </p>
         </Accordion>
 
@@ -48,7 +47,7 @@ function App() {
           isOpen={openSection === "education"}
           onClick={() => toggleSection("education")}
         >
-          <p>• Abitur abgeschlossen</p>
+          <p>• Fachhochschulreife abgeschlossen</p>
           <p>• Studium: Informationstechnologie</p>
         </Accordion>
 
@@ -57,8 +56,8 @@ function App() {
           isOpen={openSection === "work"}
           onClick={() => toggleSection("work")}
         >
-          <p>• Hier kannst du deine Arbeitserfahrungen eintragen.</p>
-          <p>• Zum Beispiel: Minijob, Praktikum, Projekte oder Kundenarbeit.</p>
+          <p>• Aktuell: Check-in-Agent Mitarbeiter am Frankfurter Flughafen.</p>
+          <p>• Aktuell: Ehrenamtliche Tätigkeit als Sozialpädagogische Hilfskraft beim ASB-Bildung </p>
         </Accordion>
 
         <Accordion
@@ -67,8 +66,8 @@ function App() {
           onClick={() => toggleSection("projects")}
         >
           <p>• Portfolio Webseite</p>
-          <p>• Social Media Projekte</p>
-          <p>• Webseiten für kleine Unternehmen</p>
+          <p>• • Eigenständiges Lernen und Verstehen von IT-Projekten wie Passwort-Managern</p>
+          <p>• Webseiten für kleine Unternehmen durch KI</p>
         </Accordion>
 
         <Accordion
@@ -77,15 +76,15 @@ function App() {
           onClick={() => toggleSection("social")}
         >
           <div style={socialBoxStyle}>
-            <a href="https://instagram.com" target="_blank" rel="noreferrer" style={buttonStyle}>
+            <a href="https://www.instagram.com/fetrat_h_r/" target="_blank" rel="noreferrer" style={buttonStyle}>
               Instagram
             </a>
 
-            <a href="https://youtube.com" target="_blank" rel="noreferrer" style={buttonStyle}>
+            <a href="https://www.youtube.com" target="_blank" rel="noreferrer" style={buttonStyle}>
               YouTube
             </a>
 
-            <a href="https://linkedin.com" target="_blank" rel="noreferrer" style={buttonStyle}>
+            <a href="https://linkedin.com/in/fetratullah-rasuly-3ba9b0357" target="_blank" rel="noreferrer" style={buttonStyle}>
               LinkedIn
             </a>
           </div>
